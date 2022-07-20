@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/GeekFactoryDB"
+        auth="Container"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        type="javax.sql.DataSource"
+        username="root"
+        password="admin"
+        url="jdbc:mysql://localhost:3306/GeekFactoryDB?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
+       <!--  url="jdbc:mysql://localhost:3306/GeekFactoryDB?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/> -->
+  <!--  
+	<Realm className="org.apache.catalina.realm.JDBCRealm"
+  	debug="99"
+  	driverName="com.mysql.cj.jdbc.Driver"
+  	connectionURL="jdbc:mysql://localhost:3306/GeekFactoryDB?
+  				useUnicode=true&amp;characterEncoding=UTF-8&amp;
+  				serverTimezone=UTC&amp;verifyServerCertificate=false&amp;
+  				useSSL=true&amp;requireSSL=true&amp;autoReconnect=true"
+  	connectionName="root"
+  	connectionPassword="admin"
+  	userTable="UserAccount"
+  	userNameCol="email"
+  	userCredCol="passwordUser"
+  	roleNameCol="role">
+  </Realm>    
+  -->   
+</Context>
+
